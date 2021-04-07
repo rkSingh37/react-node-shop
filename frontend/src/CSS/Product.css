@@ -1,0 +1,17 @@
+.product{
+	padding: 1rem;
+	width: 20%;
+
+	border: 2px grey solid;
+	margin-bottom: 1rem;
+
+	
+}
+.product:hover{
+	cursor: pointer
+}
+
+.product:not(:last-child){
+	margin-right: 1rem;
+
+}
